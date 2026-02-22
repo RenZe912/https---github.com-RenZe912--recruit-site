@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>北京知春路教育科技有限公司｜FIEP-AI 招聘</title>
+  <meta name="description" content="FIEP-AI 高中实验班教师招聘：语文/数学/英语/物理/化学/生物/历史/地理/政治等。个性化教学结构化落地实践。" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional font (clean + good Chinese) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: "Noto Sans SC", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; }
+    section { scroll-margin-top: 92px; }
+    /* soft selection */
+    ::selection { background: rgba(132, 204, 22, .22); }
+  </style>
+
+  <script>
+    // Tailwind config via runtime (keeps file self-contained)
+    tailwind.config = {
+      theme: {
+        extend: {
+          boxShadow: {
+            soft: "0 10px 30px rgba(2, 6, 23, .08)",
+            soft2: "0 12px 38px rgba(2, 6, 23, .10)",
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <!-- Top Nav -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <div class="h-10 w-10 rounded-2xl bg-gradient-to-br from-lime-400 via-lime-500 to-amber-300"></div>
+            <div class="absolute inset-[2px] rounded-2xl bg-white"></div>
+            <div class="absolute inset-0 flex items-center justify-center text-sm font-bold text-slate-900">F</div>
+          </div>
+
+          <div class="leading-tight">
+            <div class="text-sm font-semibold tracking-tight">北京知春路教育科技有限公司</div>
+            <div class="text-xs text-slate-500">FIEP-AI 高中实验班｜招聘</div>
+          </div>
+        </div>
+
+        <nav class="hidden md:flex items-center gap-5 text-sm">
+          <a class="text-slate-600 hover:text-slate-900" href="#overview">概览</a>
+          <a class="text-slate-600 hover:text-slate-900" href="#part1">公司基础信息</a>
+          <a class="text-slate-600 hover:text-slate-900" href="#part2">核心理念与导向</a>
+          <a class="text-slate-600 hover:text-slate-900" href="#part3">核心业务</a>
+          <a class="text-slate-600 hover:text-slate-900" href="#roles">岗位职责</a>
+          <a class="text-slate-600 hover:text-slate-900" href="#apply">申请方式</a>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <button id="menuBtn" class="md:hidden inline-flex items-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm hover:bg-slate-50">
+            菜单
+          </button>
+
+          <a href="#apply"
+             class="hidden md:inline-flex items-center gap-2 rounded-2xl bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800">
+            立即申请
+            <span class="inline-block h-2 w-2 rounded-full bg-lime-400"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="hidden pb-4 md:hidden">
+        <div class="grid gap-2 rounded-3xl border border-slate-200 bg-white p-3 text-sm shadow-soft">
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#overview">概览</a>
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#part1">公司基础信息</a>
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#part2">核心理念与导向</a>
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#part3">核心业务</a>
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#roles">岗位职责</a>
+          <a class="rounded-2xl px-3 py-2 hover:bg-slate-50" href="#apply">申请方式</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl px-4">
+    <!-- Hero -->
+    <section id="overview" class="pt-10 md:pt-14">
+      <div class="relative overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-soft">
+        <!-- gradient glow -->
+        <div class="pointer-events-none absolute -top-28 -right-28 h-72 w-72 rounded-full bg-gradient-to-br from-amber-300/45 via-lime-300/45 to-emerald-300/30 blur-2xl"></div>
+        <div class="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-gradient-to-br from-lime-300/45 via-emerald-300/35 to-amber-300/25 blur-2xl"></div>
+
+        <div class="relative p-6 md:p-10">
+          <div class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 px-3 py-1 text-xs text-slate-700">
+            <span class="h-2 w-2 rounded-full bg-lime-500"></span>
+            现正招聘｜高中全学科教师（派驻实验班）
+          </div>
+
+          <div class="mt-4 grid gap-6 md:grid-cols-5 md:items-end">
+            <div class="md:col-span-3">
+              <h1 class="text-2xl md:text-4xl font-semibold tracking-tight">
+                FIEP-AI 高中实验班｜教师招聘
+              </h1>
+              <p class="mt-3 text-slate-600 leading-relaxed">
+                我们在真实高中场景中推进 FIEP-AI 教育理念的运行、验证与优化，
+                以结构化方式落地个性化教学：小班化教学、动态学情反馈、AI辅助节奏管理与持续教研。
+              </p>
+
+              <div class="mt-5 flex flex-col sm:flex-row gap-3">
+                <a href="#apply"
+                   class="inline-flex items-center justify-center rounded-2xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-800">
+                  查看申请方式
+                </a>
+                <a href="#roles"
+                   class="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-900 hover:bg-slate-50">
+                  查看岗位职责
+                </a>
+              </div>
+            </div>
+
+            <!-- mini cards -->
+            <div class="md:col-span-2 grid gap-3">
+              <div class="rounded-3xl border border-slate-200 bg-white/80 p-4">
+                <div class="text-xs text-slate-500">工作地点</div>
+                <div class="mt-1 font-medium">朝阳市富民学校（实验班）</div>
+                <div class="mt-1 text-xs text-slate-500">依托学校办学环境</div>
+              </div>
+
+              <div class="rounded-3xl border border-slate-200 bg-white/80 p-4">
+                <div class="text-xs text-slate-500">岗位覆盖</div>
+                <div class="mt-1 font-medium">高中全学科</div>
+                <div class="mt-1 text-xs text-slate-500">语数英 + 文理科</div>
+              </div>
+
+              <div class="rounded-3xl border border-slate-200 bg-white/80 p-4">
+                <div class="text-xs text-slate-500">工作重心</div>
+                <div class="mt-1 font-medium">教学 · 学情判断 · 协同管理</div>
+                <div class="mt-1 text-xs text-slate-500">AI 用于提升效率与精准度</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick TOC -->
+          <div class="mt-8 rounded-3xl border border-slate-200 bg-white/70 p-4">
+            <div class="text-xs font-semibold text-slate-700">快速浏览</div>
+            <div class="mt-2 flex flex-wrap gap-2 text-sm">
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#part1">01 基础信息</a>
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#part2">02 理念导向</a>
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#part3">03 核心业务</a>
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#roles">04 岗位职责</a>
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#part5">05 求职者说明</a>
+              <a class="rounded-full border border-slate-200 bg-white px-3 py-1 hover:bg-slate-50" href="#apply">投递方式</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Helper: section wrapper -->
+    <div class="pt-10 md:pt-14"></div>
+
+    <!-- Part 1 -->
+    <section id="part1">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div class="flex items-start justify-between gap-6">
+          <div>
+            <div class="inline-flex items-center gap-2 text-xs font-semibold text-slate-700">
+              <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+              Section 01
+            </div>
+            <h2 class="mt-2 text-xl md:text-2xl font-semibold tracking-tight">一、公司基础信息</h2>
+            <p class="mt-2 text-sm text-slate-600">把你们最终定稿的第一部分粘贴到下方即可（支持多段落）。</p>
+          </div>
+        </div>
+
+        <div class="mt-6 grid gap-4 text-[15px] leading-7 text-slate-700">
+          <!-- ✅ 占位内容：替换成你们定稿 -->
+          <p>
+            北京知春路教育科技有限公司，是一家以 FIEP（Future Individualized Education Plan，未来个性教育计划）教育体系为基础，
+            推动 AI 赋能个性化教学落地的创新教育组织。
+          </p>
+          <p class="text-slate-500">
+            （占位提示）你可以把润色后的“一、公司基础信息”整段替换到这里。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Part 2 -->
+    <section id="part2" class="pt-10 md:pt-14">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-semibold text-slate-700">
+            <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+            Section 02
+          </div>
+          <h2 class="mt-2 text-xl md:text-2xl font-semibold tracking-tight">二、公司核心理念与导向</h2>
+          <p class="mt-2 text-sm text-slate-600">建议用“背景—主张—方法—AI定位”四段结构，读起来更有力量。</p>
+        </div>
+
+        <div class="mt-6 grid gap-4 text-[15px] leading-7 text-slate-700">
+          <!-- ✅ 占位内容：替换成你们定稿 -->
+          <p>
+            FIEP-AI 强调以个体为基本单位，基于系统测评与动态管理机制，在真人教学基础上引入 AI 辅助反馈，
+            以结构化方式推进个性化教学常态化落地。
+          </p>
+          <p class="text-slate-500">
+            （占位提示）把你们定稿的“二、核心理念与导向”替换到这里。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Part 3: Core Business (already your original 5 bullets, re-rendered prettier) -->
+    <section id="part3" class="pt-10 md:pt-14">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div class="flex items-start justify-between gap-6">
+          <div>
+            <div class="inline-flex items-center gap-2 text-xs font-semibold text-slate-700">
+              <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+              Section 03
+            </div>
+            <h2 class="mt-2 text-xl md:text-2xl font-semibold tracking-tight">三、现有核心业务与主要处理事项</h2>
+            <p class="mt-2 text-sm text-slate-600">以下内容可直接保留为对外招聘文档表述。</p>
+          </div>
+        </div>
+
+        <div class="mt-6 grid gap-5 text-[15px] leading-7 text-slate-700">
+          <p>
+            公司当前核心工作围绕“朝阳市富民学校 FIEP-AI 高中实验班”的落地与运营展开。该实验班是公司 FIEP-AI 理念的核心实践载体，
+            依托富民学校的办学环境，为高中阶段不同学情的学子提供系统化、个性化的教学服务，具体工作如下：
+          </p>
+
+          <div class="grid gap-3">
+            <!-- card template -->
+            <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-[0_1px_0_rgba(2,6,23,.05)]">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 h-9 w-9 rounded-2xl bg-gradient-to-br from-amber-300 to-lime-400"></div>
+                <div>
+                  <div class="font-semibold tracking-tight">1. 实验班教学实施</div>
+                  <div class="mt-1 text-slate-700">
+                    按照 FIEP-AI 理念开展高中各学科常规教学，摒弃传统“标签化分班”“一刀切教学”模式，
+                    实现“同一体系、多元路径”的科学培养，适配四年制高中、美术生、复读生、插班生及体系内拔尖潜质学生等不同学情。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-[0_1px_0_rgba(2,6,23,.05)]">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 h-9 w-9 rounded-2xl bg-gradient-to-br from-amber-300 to-lime-400"></div>
+                <div>
+                  <div class="font-semibold tracking-tight">2. 个性化教学落地</div>
+                  <div class="mt-1 text-slate-700">
+                    结合 FIEP 体系的 NPC 新潜能检测结果，为每位学生制定专属培养路径；学科教学贴合学生优势能力、学习可塑性与发展方向，
+                    针对性解决学习痛点（如美术生“重专业轻文化”、复读生“知识漏洞多、心态波动大”等）。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-[0_1px_0_rgba(2,6,23,.05)]">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 h-9 w-9 rounded-2xl bg-gradient-to-br from-amber-300 to-lime-400"></div>
+                <div>
+                  <div class="font-semibold tracking-tight">3. 教学协同与管理</div>
+                  <div class="mt-1 text-slate-700">
+                    实行小班化教学，保障每位学生获得充分关注；配合教研与督学工作，参与月度学情反馈、季度家校沟通，
+                    落实培养过程透明化，与家长、学生签署《培养与管理协议》，明确三方权责，以“稳扎稳打、减少无效消耗”为目标。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-[0_1px_0_rgba(2,6,23,.05)]">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 h-9 w-9 rounded-2xl bg-gradient-to-br from-amber-300 to-lime-400"></div>
+                <div>
+                  <div class="font-semibold tracking-tight">4. FIEP-AI 理念融合</div>
+                  <div class="mt-1 text-slate-700">
+                    将 AI 工具（AI 老师）作为教学管理辅助手段，融入日常教学，用于学习节奏管控、异常波动预警与阶段反馈调整；
+                    学科教师重点负责真人授课、教学规划、学情分析及个性化指导，不依赖 AI 替代真人教学，仅通过 AI 提升效率与精准度。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-[0_1px_0_rgba(2,6,23,.05)]">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 h-9 w-9 rounded-2xl bg-gradient-to-br from-amber-300 to-lime-400"></div>
+                <div>
+                  <div class="font-semibold tracking-tight">5. 学科相关教研</div>
+                  <div class="mt-1 text-slate-700">
+                    围绕 FIEP-AI 理念开展各学科教研工作，优化教学方法，适配实验班不同培养路径的教学需求；
+                    结合学生学情动态调整教学内容与教学节奏，确保教学内容贴合 FIEP 理念、贴合学生需求。
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-3xl border border-slate-200 bg-gradient-to-r from-amber-50 to-lime-50 p-5">
+            <div class="text-sm font-semibold text-slate-800">总体定位</div>
+            <div class="mt-1 text-slate-700">
+              当前阶段，公司以实验班为核心实践场域，围绕“个性化教学结构化落地”开展教学、管理与教研工作。实验班既是教学平台，也是 FIEP-AI 理念的验证与优化场。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roles -->
+    <section id="roles" class="pt-10 md:pt-14">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div>
+            <div class="inline-flex items-center gap-2 text-xs font-semibold text-slate-700">
+              <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+              Section 04
+            </div>
+            <h2 class="mt-2 text-xl md:text-2xl font-semibold tracking-tight">四、核心岗位招聘需求与岗位职责</h2>
+            <p class="mt-2 text-sm text-slate-600">按学科快速筛选与搜索。具体岗位职责可按你们定稿替换下方通用版本。</p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-2">
+            <input
+              id="searchInput"
+              class="w-full sm:w-64 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-lime-200"
+              placeholder="搜索学科：语文/数学/英语…"
+            />
+            <select
+              id="subjectSelect"
+              class="w-full sm:w-48 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-lime-200"
+            >
+              <option value="">全部学科</option>
+              <option>语文</option><option>数学</option><option>英语</option>
+              <option>物理</option><option>化学</option><option>生物</option>
+              <option>历史</option><option>地理</option><option>政治</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="jobGrid" class="mt-6 grid gap-3 md:grid-cols-2"></div>
+
+        <div class="mt-8 border-t border-slate-200 pt-8">
+          <h3 class="text-lg font-semibold tracking-tight">岗位职责（通用）</h3>
+
+          <div class="mt-4 grid gap-3 text-[15px] leading-7 text-slate-700">
+            <div class="rounded-3xl border border-slate-200 bg-white p-5">
+              <div class="font-semibold">1）学科教学实施与课堂组织</div>
+              <div class="mt-1 text-slate-700">负责高中对应学科授课与课堂组织，在统一目标下根据学情差异调整节奏与策略，保障教学质量。</div>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-white p-5">
+              <div class="font-semibold">2）学情分析、反馈与个体干预</div>
+              <div class="mt-1 text-slate-700">跟踪学习进度与知识结构，识别瓶颈与成因，制定可执行的辅导与矫正方案，形成改进闭环。</div>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-white p-5">
+              <div class="font-semibold">3）个性化培养路径执行与修正</div>
+              <div class="mt-1 text-slate-700">基于评估结果执行培养路径，在实践中检验有效性并提出调整建议，确保个性化落地。</div>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-white p-5">
+              <div class="font-semibold">4）协同沟通与过程透明</div>
+              <div class="mt-1 text-slate-700">参与月度学情反馈与季度家校沟通，落实过程记录与复盘，配合督学/教研/管理工作。</div>
+            </div>
+            <div class="rounded-3xl border border-slate-200 bg-white p-5">
+              <div class="font-semibold">5）理念学习、工具使用与教研迭代</div>
+              <div class="mt-1 text-slate-700">学习 FIEP-AI 理念与方法，使用 AI 辅助工具提升反馈效率，参与教研与案例复盘，持续优化方案。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Part 5 -->
+    <section id="part5" class="pt-10 md:pt-14">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-semibold text-slate-700">
+            <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+            Section 05
+          </div>
+          <h2 class="mt-2 text-xl md:text-2xl font-semibold tracking-tight">五、致求职者说明</h2>
+          <p class="mt-2 text-sm text-slate-600">将你们最终定稿粘贴到下方（默认展示占位内容）。</p>
+        </div>
+
+        <div class="mt-6 grid gap-4 text-[15px] leading-7 text-slate-700">
+          <!-- ✅ 占位内容：替换成你们定稿 -->
+          <p>
+            本公司为小型创新教育企业，当前核心工作聚焦于朝阳市富民学校 FIEP-AI 高中实验班的落地与运行。
+            团队结构精简、务实高效，注重每一位成员的实际贡献。
+          </p>
+          <p class="text-slate-500">
+            （占位提示）把“第五部分”整段替换到这里即可。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apply -->
+    <section id="apply" class="pt-10 md:pt-14 pb-20">
+      <div class="rounded-[28px] border border-slate-200 bg-white p-6 md:p-10 shadow-soft">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div>
+            <h2 class="text-xl md:text-2xl font-semibold tracking-tight">申请方式</h2>
+            <p class="mt-2 text-sm text-slate-600">
+              在这里放投递邮箱、联系方式、表单链接或二维码。下面已做复制按钮与建议邮件标题格式。
+            </p>
+          </div>
+          <div class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-50 to-lime-50 px-3 py-1 text-xs text-slate-700 border border-slate-200">
+            <span class="h-2 w-2 rounded-full bg-lime-500"></span> 建议优先邮件投递
+          </div>
+        </div>
+
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          <div class="rounded-3xl border border-slate-200 bg-white p-5">
+            <div class="text-xs text-slate-500">投递邮箱</div>
+            <div class="mt-1 font-semibold" id="emailText">hr@yourcompany.com</div>
+            <button class="mt-3 inline-flex items-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm hover:bg-slate-50"
+                    onclick="copyText(document.getElementById('emailText').innerText)">
+              复制邮箱
+            </button>
+          </div>
+
+          <div class="rounded-3xl border border-slate-200 bg-white p-5">
+            <div class="text-xs text-slate-500">联系人 / 电话</div>
+            <div class="mt-1 font-semibold" id="phoneText">张老师 138-0000-0000</div>
+            <button class="mt-3 inline-flex items-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm hover:bg-slate-50"
+                    onclick="copyText(document.getElementById('phoneText').innerText)">
+              复制信息
+            </button>
+          </div>
+
+          <div class="rounded-3xl border border-slate-200 bg-white p-5">
+            <div class="text-xs text-slate-500">微信 / 表单</div>
+            <div class="mt-3 flex items-center gap-3">
+              <div class="h-20 w-20 rounded-2xl border border-slate-200 bg-gradient-to-br from-amber-50 to-lime-50 flex items-center justify-center text-xs text-slate-400">
+                二维码
+              </div>
+              <div class="text-sm text-slate-600">
+                将这里替换为投递二维码图片，或放表单链接。
+                <div class="mt-2">
+                  <a class="text-slate-900 underline underline-offset-4 hover:opacity-80" href="#" target="_blank" rel="noreferrer">投递表单链接</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 rounded-3xl border border-slate-200 bg-gradient-to-r from-amber-50 to-lime-50 p-5 text-sm text-slate-700">
+          <div class="font-semibold text-slate-900">建议邮件标题格式</div>
+          <div class="mt-1">【学科】-【姓名】-【毕业院校】-【到岗时间】</div>
+          <div class="mt-2 text-xs text-slate-500">例：数学-张三-南京大学-2026年7月</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Apply Button -->
+  <a href="#apply"
+     class="fixed bottom-5 right-5 inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-amber-300 to-lime-400 px-4 py-3 text-sm font-semibold text-slate-900 shadow-soft2 hover:opacity-95">
+    立即申请
+    <span class="inline-block h-2 w-2 rounded-full bg-white"></span>
+  </a>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-10 text-sm text-slate-500">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+        <div>© <span id="year"></span> 北京知春路教育科技有限公司｜FIEP-AI</div>
+        <div class="flex gap-4">
+          <a class="hover:text-slate-700" href="#overview">返回顶部</a>
+          <a class="hover:text-slate-700" href="#apply">申请方式</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+    mobileMenu?.addEventListener('click', (e) => { if (e.target.tagName === 'A') mobileMenu.classList.add('hidden'); });
+
+    // Copy helper
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+        toast('已复制');
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        toast('已复制');
+      }
+    }
+
+    // Toast
+    let toastTimer;
+    function toast(msg) {
+      clearTimeout(toastTimer);
+      let t = document.getElementById('toast');
+      if (!t) {
+        t = document.createElement('div');
+        t.id = 'toast';
+        t.className = 'fixed left-1/2 top-4 -translate-x-1/2 rounded-2xl bg-slate-900 px-4 py-2 text-sm text-white shadow-soft';
+        document.body.appendChild(t);
+      }
+      t.textContent = msg;
+      t.style.opacity = '1';
+      toastTimer = setTimeout(() => { t.style.opacity = '0'; }, 1200);
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Jobs data + rendering
+    const jobs = [
+      { subject: '语文', title: '高中语文教师', tags: ['授课', '学情分析', '教研'] },
+      { subject: '数学', title: '高中数学教师', tags: ['授课', '训练设计', '教研'] },
+      { subject: '英语', title: '高中英语教师', tags: ['授课', '能力提升', '教研'] },
+      { subject: '物理', title: '高中物理教师', tags: ['授课', '实验班', '教研'] },
+      { subject: '化学', title: '高中化学教师', tags: ['授课', '学情反馈', '教研'] },
+      { subject: '生物', title: '高中生物教师', tags: ['授课', '路径适配', '教研'] },
+      { subject: '历史', title: '高中历史教师', tags: ['授课', '结构化复盘', '教研'] },
+      { subject: '地理', title: '高中地理教师', tags: ['授课', '节奏管理', '教研'] },
+      { subject: '政治', title: '高中政治教师', tags: ['授课', '阶段评估', '教研'] },
+    ];
+
+    const jobGrid = document.getElementById('jobGrid');
+    const searchInput = document.getElementById('searchInput');
+    const subjectSelect = document.getElementById('subjectSelect');
+
+    function renderJobs() {
+      const q = (searchInput?.value || '').trim();
+      const s = subjectSelect?.value || '';
+      const filtered = jobs.filter(j => {
+        const matchQ = !q || (j.subject + j.title).includes(q);
+        const matchS = !s || j.subject === s;
+        return matchQ && matchS;
+      });
+
+      jobGrid.innerHTML = filtered.map(j => `
+        <div class="group rounded-3xl border border-slate-200 bg-white p-5 hover:shadow-soft transition-shadow">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <div class="inline-flex items-center gap-2 text-xs text-slate-500">
+                <span class="inline-block h-2 w-2 rounded-full bg-gradient-to-r from-amber-300 to-lime-400"></span>
+                ${j.subject}
+              </div>
+              <div class="mt-1 font-semibold tracking-tight text-slate-900">${j.title}</div>
+            </div>
+            <a href="#apply"
+               class="shrink-0 inline-flex items-center rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm hover:bg-slate-50">
+              申请
+            </a>
+          </div>
+
+          <div class="mt-3 flex flex-wrap gap-2">
+            ${j.tags.map(t => `
+              <span class="rounded-full bg-gradient-to-r from-amber-50 to-lime-50 border border-slate-200 px-3 py-1 text-xs text-slate-700">
+                ${t}
+              </span>
+            `).join('')}
+          </div>
+
+          <div class="mt-3 text-sm text-slate-600 leading-6">
+            主要工作：日常教学实施、学情跟踪与反馈、参与教研与路径优化、配合家校沟通与过程管理。
+          </div>
+
+          <div class="mt-4 h-[2px] w-full rounded-full bg-gradient-to-r from-amber-300/70 to-lime-400/70 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </div>
+      `).join('') || `<div class="text-sm text-slate-500">未找到匹配岗位。</div>`;
+    }
+
+    searchInput?.addEventListener('input', renderJobs);
+    subjectSelect?.addEventListener('change', renderJobs);
+    renderJobs();
+  </script>
+</body>
+</html>
